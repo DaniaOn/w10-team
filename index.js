@@ -6,7 +6,7 @@ const inquirer = require('inquirer');
 const Engineer = require('./lib/engineer');
 const Manager = require('./lib/manager');
 const Intern = require('./lib/intern');
-const generateHtml = require('./lib/generateHTML');
+const generateHtml = require('./dist/generateHTML');
 
 // engineer questions
 const engineerInput = () => {
