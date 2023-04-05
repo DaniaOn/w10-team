@@ -13,12 +13,12 @@ Main goal on this aplication is to generate a webpage that displays my team's ba
 
 It is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
 
-##Usage 
+## Usage 
  - npm i jest
  - npm i inquirer@8.2.4
  - Enter team's imput
 
-##LICENSE
+## LICENSE
 MIT License
 
 Copyright (c) 2023 DaniaOn
