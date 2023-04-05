@@ -8,6 +8,11 @@ const Manager = require('./lib/manager');
 const Intern = require('./lib/intern');
 const generateHtml = require('./dist/generateHTML');
 
+//hold containers for inputs
+const engineer =[];
+const manager =[];
+const intern =[];
+
 // engineer questions
 const engineerInput = () => {
     return inquirer.prompt([
@@ -133,3 +138,5 @@ const internInput = [
         },
     }
 ];
+
+//generateHtml
