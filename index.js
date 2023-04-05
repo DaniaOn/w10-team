@@ -95,8 +95,41 @@ const managerInputs = [
     }
 ];
 //intern questions
-
-
-
-
-
+const internInput = [
+    {
+        name: 'internName',
+        type: 'input',
+        message: 'Enter intern\'s name?',
+        validate: (value) => {
+            if (value) {
+                return true;
+            } else {
+                return 'ERROR! Please try again!';
+            }
+        }
+    },
+    {
+        name: 'interEmail',
+        type: 'input',
+        message: 'Enter intern\'s email?',
+        validate: (value) => {
+            if (value) {
+                return true;
+            } else {
+                return 'ERROR! Please try again!';
+            }
+        }
+    },
+    {
+        name: 'interSchool',
+        type: 'input',
+        message: 'Enter intern\'s school?',
+        validate: (value) => {
+            if (value) {
+                return true;
+            } else {
+                return 'ERROR! Please try again!';
+            }
+        },
+    }
+];
