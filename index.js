@@ -57,7 +57,43 @@ const engineerInput = () => {
     })
 }
 // manager questions
-
+const managerInputs = [
+    {
+        type: 'input',
+        name: 'managerName',
+        message: "Please input the manager's name: ",
+        validate: (value) => {
+            if (value) {
+                return true;
+            } else {
+                return 'ERROR! Please try again!';
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'managerId',
+        message: "Please input the manager's ID: ",
+        validate: (value) => {
+            if (value) {
+                return true;
+            } else {
+                return 'ERROR! Please try again!';
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'managerOfficeNumber',
+        message: "Please input the manager's Office Number: ",
+        validate: (value) => {
+            if (value) {
+                return true;
+            } else {
+                return 'ERROR! Please try again!';
+            }},
+    }
+];
 //intern questions
 
 
