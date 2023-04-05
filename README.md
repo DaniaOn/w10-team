@@ -9,7 +9,7 @@
 
 Main goal on this aplication is to generate a webpage that displays my team's basic info and colect this impormation base on employee status on the company (intern, manager, employee).
 
-##Installation
+## Installation
 
 It is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
 
